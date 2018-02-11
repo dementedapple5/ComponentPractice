@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:src="@android:drawable/ic_menu_search"
+        style="?android:buttonBarButtonStyle"
+        android:id="@+id/mBtnSearch"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="0.25"
+        android:hint="Search"
+        android:id="@+id/mEtSearch"/>
+    
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:src="@android:drawable/ic_delete"
+        style="?android:buttonBarButtonStyle"
+        android:id="@+id/mBtnDelete" />
+
+</LinearLayout>
